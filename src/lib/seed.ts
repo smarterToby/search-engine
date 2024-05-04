@@ -3,6 +3,7 @@ import { Decimal } from "@prisma/client/runtime/library";
 import { Index } from "@upstash/vector";
 import * as dotenv from "dotenv";
 import { vectorize } from "./vectorize";
+import type { CoreProduct } from "@/app/search/page";
 
 dotenv.config();
 
